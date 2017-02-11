@@ -1,0 +1,87 @@
+body {
+	background: #000000;
+}
+#header {
+	font-family: AmericanTypewriter;
+	font-size: 36px;
+	color: #FFFFFF;
+	letter-spacing: 1.08px;
+	text-align: center;
+	height: 50px;
+}
+#title {
+	font-family: AmericanTypewriter;
+	font-size: 48px;
+	color: #FFFFFF;
+	letter-spacing: 2.59px;
+	text-align: center;
+	height: 60px;
+}
+#coment {
+	font-family: HiraMinProN-W3;
+	font-size: 64px;
+	color: #FFFFFF;
+	letter-spacing: 1.92px;
+	text-align: center;
+	height: 70px;
+}
+#question {
+	font-family: HiraMinProN-W3;
+	font-size: 60px;
+	color: #FFFFFF;
+	letter-spacing: 1.92px;
+	text-align: center;
+	height: 70px;
+}
+#contens {
+	font-family: HiraMinProN-W3;
+	font-size: 72px;
+	color: #FFFFFF;
+	letter-spacing: 2.99px;
+}
+.ledgend {
+	font-family: HiraMinProN-W3;
+	font-size: 70px;
+	color: #FFFFFF;
+	letter-spacing: 2.99px;
+	text-align: center;
+}
+#countdown {
+	height: 150px;
+	text-align: center;
+}
+.progressbar.ui-progressbar {
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+.progressbar .ui-progressbar-value {
+	background: red;
+}
+.label {
+	font-family: HiraMinProN-W3;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+}
+#timeup {
+	height: 150px;
+	width: 100%;
+	font-family: HiraMinProN-W3;
+	font-size: 50px;
+	color: #FFFFFF;
+	letter-spacing: 2.99px;
+	top: 150px;
+	margin: auto;
+}
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-family: AmericanTypewriter;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 1.08px;
+}
