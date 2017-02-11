@@ -1,0 +1,17 @@
+{
+  "name": "mission2",
+  "version": "0.0.0",
+  "description": "livehack mission2",
+  "main": "app.js",
+  "author": "Grant Timmerman",
+  "private": true,
+  "license": "BSD",
+  "dependencies": {
+    "express": "4.13.4",
+    "socket.io": "1.4.5",
+    "ejs": "2.5.5"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}
