@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <title>FEMM.LIVE</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/css/foundation.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link href="//db.onlinewebfonts.com/c/bf35ddaa105b41dd66cb2eb93424c588?family=American+Typewriter" rel="stylesheet"
+          type="text/css"/>
+    <script src="./js/libs/modernizr.foundation.js"></script>
+</head>
+<body>
+<div class="container">
+    <header class="scheader">
+        <h1>
+            TECHS.2
+        </h1>
+        <h2>
+            Third Mission_
+        </h2>
+        <!-- イベント文字 -->
+        <h3><span style="color: red">2000回タップシテ</span></h3>
+        <h3>エネルギーヲチャージシロ</h3>
+    </header>
+    <div class="row">
+        <div class="large-11 large-centered columns">
+            <div id="box">
+                <canvas id="meter" width="360" height="220"></canvas>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <img class="copyright" src="img/livehack-logo.png">
+    </footer>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="./js/libs/chart.meter.js"></script>
+<script>
+    $(function () {
+        $(document).on("contextmenu", function (e) {
+            return false;
+        });
+    });
+</script>
+<script>
+    window.onload = function () {
+        Meter.setOptions({
+            element: 'meter',
+            centerPoint: {
+                x: 180,
+                y: 180
+            },
+            radius: 180,
+            data: {
+                value: 710,
+                title: 'エネルギー: {t}',
+                subTitle: '',
+                area: [{
+                    min: 0, max: 100, text: 'Start'
+                }, {
+                    min: 100, max: 500, text: 'More'
+                }, {
+                    min: 500, max: 1000, text: 'Good'
+                }, {
+                    min: 1000, max: 1500, text: 'Best'
+                }, {
+                    min: 1500, max: 2000, text: 'MAX'
+                }]
+            }
+        }).init();
+
+    }
+</script>
+</body>
+</html>

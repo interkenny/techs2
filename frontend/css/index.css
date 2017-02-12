@@ -1,0 +1,289 @@
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+html, body {
+	background-color: #000000;
+}
+body, h1, h2, h3, h4, h5, h6, p { font-family: 'American Typewriter', sans-serif; }
+
+a { 
+	color: #ffffff;
+}
+a:hover { color: #990000; }
+
+/* -----------------------------------------
+   Page Styles
+----------------------------------------- */
+
+.container {
+	width:100%;
+	margin-left:auto;
+	margin-right:auto;
+	position: relative;
+    min-height: 100%;
+}
+
+.scheader {
+	font-family: "American Typewriter", sans-serif;
+	text-align: center;
+	color: #ffffff;
+	margin: 0.2em 0 0 0;
+}
+.scheader p {
+    font-size: 30px;
+}
+.scheader h1 {
+	font-size: 30px;
+}
+.scheader h2 {
+	font-size: 40px;
+}
+
+.scheader h3 {
+	font-family: "Hiragino Mincho Pro", "MS PMincho", serif;
+	font-size: 60px;
+}
+
+.scheader h4 {
+	font-family: "Hiragino Mincho Pro", "MS PMincho", serif;
+	font-size: 40px;
+}
+
+.divcss5{ border:1px solid #000; width:140px; overflow:hidden}
+.divcss5 img{max-width:140px; _width:expression(this.width > 140 ? "140px" : this.width);}
+
+.contents {
+	font-family: "Hiragino Mincho Pro", "MS PMincho", serif;
+	text-align: center;
+	color: #ffffff;
+	margin: 3em 0 0 0;
+}
+
+.contents .clock {
+    width: 633px;
+    height: 96px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contents .flip-clock-divider .flip-clock-label {
+    font-size: 24px;
+    color: #990000;
+}
+
+.contents .flip-clock-divider.seconds .flip-clock-label { right: -114px; }
+.contents .flip-clock-divider.minutes .flip-clock-label { right: -110px; }
+.contents .flip-clock-divider.hours .flip-clock-label { right: -102px; }
+.contents .flip-clock-dot { background: rgb(160, 160, 160); }
+.contents .buttons { text-align: center; margin: 60px 0 0;}
+
+.contents.no-clock { padding: 25px 0 75px; }
+.contents.no-clock .clock { display: none; }
+
+.info {
+    text-align: center;
+    font-size: 24px;
+    text-shadow: none;
+    color: #ffffff;
+}
+
+.address {
+	font-family: "Hiragino Mincho Pro","MS PMincho",serif;
+	font-size: 14px;
+}
+
+.date {
+	margin: 20px 0 10px 0;
+}
+
+.message {
+    font-size: 40px;
+    color: #990000;
+}
+
+.contents .question p{
+    font-family: "Hiragino Mincho Pro", "MS PMincho", serif;
+    font-size: 40px;
+}
+
+.footer { 
+	text-align: center;
+	height: 20px;
+	min-height:20px;
+	width: 100%;
+    position: relative;
+    bottom: 0;
+}
+.copyright{ border:1px solid #000; width:100px; overflow:hidden}
+.copyright img{max-width:100px;_width:expression(this.width > 100 ? "100px" : this.width);}
+
+
+/*multimedia*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+
+.header h1 {
+	margin: 1em 0 0 0;
+}
+
+.divcss5{ border:1px solid #000; width:120px; overflow:hidden} 
+.divcss5 img{max-width:120px;_width:expression(this.width > 120 ? "120px" : this.width);}
+
+.version1 {
+	text-align: center;
+	font-size: 24px;
+	text-shadow: none;
+	color: #ffffff;
+}
+
+.contents {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+	.contents .clock {
+		width: 530px;
+		height: 116px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contents .flip-clock-wrapper ul {width: 36px; height: 80px; position: relative; margin: 0 3px; left: 80px;}
+	.contents .flip-clock-wrapper ul li {line-height: 80px;}
+	.contents .flip-clock-wrapper ul li a div div.inn {border-radius: 3px;font-size: 28px;}
+	.contents .flip-clock-wrapper ul li a div.down {border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;}
+	.contents .flip-clock-wrapper ul li a div.up:after {top: 37px; height: 3px;}
+
+	.contents .flip-clock-divider { height: 80px; }
+	.contents .flip-clock-divider .flip-clock-label { font-size: 14px; right: -150px; position: absolute;}
+	.contents .flip-clock-divider.seconds .flip-clock-label { right: -144px; }
+	.contents .flip-clock-divider.minutes .flip-clock-label { right: -143px; }
+	.contents .flip-clock-divider.hours .flip-clock-label { right: -138px; }
+	.contents .flip-clock-divider.days .flip-clock-label { right: -130px; }
+	.contents .flip-clock-dot { height: 5px; width: 5px; left: 87px;}
+	.contents .flip-clock-dot.top { top: 30%; }
+	.contents .flip-clock-dot.bottom { bottom: -8%; }
+
+	.address {
+	font-size: 14px;
+}
+
+.date {
+	margin: 40px auto;
+}
+
+.copyright{ border:1px solid #000; width:100px; overflow:hidden} 
+.copyright img{max-width:100px;_width:expression(this.width > 100 ? "100px" : this.width);}
+
+.footer { 
+	text-align: center;
+	height: 20px;
+	min-height:20px;
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+
+.divcss5{ border:1px solid #000; width:90px; overflow:hidden} 
+.divcss5 img{max-width:90px;_width:expression(this.width > 90 ? "90px" : this.width);}
+
+.version1 {
+	text-align: center;
+	font-size: 16px;
+	text-shadow: none;
+	color: #ffffff;
+}
+
+.contents {
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+	.contents .clock {
+		width: 322px;
+		height: 66px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contents .flip-clock-wrapper ul {width: 24px; height: 50px; position: relative; margin: 0 1px; left: 30px;}
+	.contents .flip-clock-wrapper ul li {line-height: 50px;}
+	.contents .flip-clock-wrapper ul li a div div.inn {border-radius: 3px;font-size: 20px;}
+	.contents .flip-clock-wrapper ul li a div.down {border-bottom-left-radius: 3px; border-bottom-right-radius: 3px;}
+	.contents .flip-clock-wrapper ul li a div.up:after {top: 24px; height: 2px;}
+
+	.contents .flip-clock-divider { height: 50px; }
+	.contents .flip-clock-divider .flip-clock-label { font-size: 12px; right: -50px; position: absolute;}
+	.contents .flip-clock-divider.seconds .flip-clock-label { right: -80px; }
+	.contents .flip-clock-divider.minutes .flip-clock-label { right: -77px; }
+	.contents .flip-clock-divider.hours .flip-clock-label { right: -75px; }
+	.contents .flip-clock-divider.days .flip-clock-label { right: -70px; }
+	.contents .flip-clock-dot { height: 5px; width: 5px; left: 37px;}
+	.contents .flip-clock-dot.top { top: 60%; }
+	.contents .flip-clock-dot.bottom { bottom: -10%; }
+
+	.address {
+	font-size: 10px;
+}
+
+.date {
+	margin: 10px auto;
+}
+
+.copyright{ border:1px solid #000; width:80px; overflow:hidden} 
+.copyright img{max-width:80px;_width:expression(this.width > 80 ? "80px" : this.width);}
+
+.footer { 
+	text-align: center;
+	height: 10px;
+	min-height:10px;
+	width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+}
+
+.progress {
+    margin: 0 auto 2rem auto;
+    padding: 0;
+    width: 90%;
+    height: 40px;
+    overflow: hidden;
+    background: #e5e5e5;
+    border-radius: 6px;
+}
+
+.meterbar {
+    position: relative;
+    float: right;
+    min-width: 1%;
+    height: 100%;
+    background: #990000;
+}
+
+.percent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    font-family: tahoma,arial,helvetica;
+    font-size: 20px;
+    color: white;
+}
+
+.meterbar.red {
+    float: left;
+    background: #990000;
+}
+#box {
+    width: 70%;
+    text-align: center;
+    margin: 60px auto;
+}
+canvas {
+    width: inherit;
+}
