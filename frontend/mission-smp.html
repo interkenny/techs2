@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FEMM.LIVE</title>
+    <link rel="stylesheet" href="css/mobile.css"/>
+    <link rel="stylesheet" href="css/jquery.mobile.icons.min.css"/>
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <style type="text/css">
+        .center-wrapper {
+            text-align: center;
+        }
+
+        .center-wrapper * {
+            margin: 0 auto;
+        }
+
+        .custom-btn {
+            border-radius: 100% !important;
+            box-shadow: 0 0 20px #ffffff;
+            padding: 1.0em 1.1em;
+            font-size: 2.1em;
+        }
+
+        .code {
+            font-family: "Hiragino Mincho Pro", "MS PMincho", serif;
+            font-size: .6em;
+        }
+    </style>
+</head>
+<body>
+<div data-role="page" id="pageone" data-theme="a">
+    <div data-role="header" data-position="inline">
+        <!-- missionごとに説明を変更する -->
+        <h1>First Mission_</h1>
+    </div>
+    <div data-role="content" data-theme="a">
+        <div class="center-wrapper">
+            <!-- missionごとに下記のdiv内容を変更する -->
+            <!-- 説明文字 -->
+            <div id="">
+                <h1>Stop!</h1>
+            </div>
+            <!-- countdown部品 -->
+            <div id="">
+                <h1>countdown</h1>
+            </div>
+            <br>
+
+            <!-- mission1 表示 -->
+            <div id="mission1">
+                <a class="custom-btn" data-role="button" data-inline="true"><span>－</span></a>
+                <span data-inline="true">&nbsp&nbsp&nbsp&nbsp</span>
+                <a class="custom-btn" data-role="button" data-inline="true"><span>＋</span></a>
+            </div>
+            <!-- mission2 表示 -->
+            <div id="mission2">
+                <div>
+                    <!-- ボタン表示div -->
+                <a class="custom-btn" data-role="button" data-inline="true" style="padding:1.2em 1.1em;"><span
+                        class="code">飾り</span></a>
+                <span data-inline="true">&nbsp&nbsp&nbsp&nbsp</span>
+                <a class="custom-btn" data-role="button" data-inline="true" style="padding:1.2em 1.1em;"><span
+                        class="code">癒し</span></a>
+                </div>
+                <!-- ボタン表示時、曲名div非表示.曲名表示時、ボタンdiv非表示のような コントロール-->
+                <div id="">
+                    <!-- 曲名表示div-->
+                </div>
+            </div>
+            <!-- mission3 表示 -->
+            <div id="mission3">
+                <a class="custom-btn" data-role="button" data-inline="true"><span>img</span></a>
+            </div>
+        </div>
+    </div>
+    <div data-role="footer">
+        <h1>
+            <img class="copyright" src="img/livehack-logo.png">
+        </h1>
+    </div>
+</div>
+</body>
+</html>
