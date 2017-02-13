@@ -1,0 +1,83 @@
+body {
+	background-color: #000000;
+}
+#header {
+	font-family: AmericanTypewriter;
+	font-size: 15px;
+	color: #FFFFFF;
+	letter-spacing: 1.08px;
+	text-align: center; 
+	height:40px;
+}
+#title {
+	font-family: AmericanTypewriter;
+	font-size: 20px;
+	color: #FFFFFF;
+	letter-spacing: 1.08px;
+	text-align: center; 
+	height:40px;
+}
+#question {
+	font-family: AmericanTypewriter;
+	font-size: 20px;
+	color: #FFFFFF;
+	letter-spacing: 1.08px;
+	text-align: center; 
+	height:50px; 
+}
+#coment {
+	font-family: AmericanTypewriter;
+	font-size: 20px;
+	color: #FFFFFF;
+	letter-spacing: 1.08px;
+	text-align: center;
+	height: 20px;
+}
+#radio {
+	height: 70px;
+	width: 100%;
+	text-align: center;
+}
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-family: AmericanTypewriter;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 1.08px;
+}
+
+.zInputWrapper {
+  display: inline-block;
+}
+.zInput {
+  display: inline-block;
+  width: 160px;
+  height: 150px;
+  background-color: white;
+  margin: 40px 80px 40px;
+  padding: 12px;  
+  font-family: HiraMinProN-W3;
+  text-align: center;
+  cursor: default;
+  color: #2980b9;
+  border: #2980b9 1px solid;
+  border-radius: 120px;
+  box-shadow: 2px 2px 8px 0 #FFFFFF;      
+  font-size: 30px;
+  overflow: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.zSelected {
+  color: white;
+  background-color: #D0011B;
+  border: #FFFFFF 1px solid;
+}
+.zSelected.zCheckbox { background-color: #e74c3c; }

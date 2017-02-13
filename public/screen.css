@@ -1,0 +1,110 @@
+#code {
+	font-size: 60px;
+	text-align: center;
+	border-style: solid;
+	border-width: 2px;
+	border-color: white;
+	text-align: center;
+}
+#advice {
+	font-family: HiraMinProN-W3;
+	font-size: 20px;
+	color: #FFFFFF;
+	letter-spacing: 1.92px;
+	text-align: center;
+}
+
+.ledgend {
+	font-family: HiraMinProN-W3;
+	font-size: 70px;
+	color: #FFFFFF;
+	letter-spacing: 2.99px;
+	text-align: center;
+}
+#countdown {
+	height: 150px;
+	text-align: center;
+}
+.progressbar.ui-progressbar {
+	height: 40px;
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+.progressbar .ui-progressbar-value {
+	background: red;
+}
+.label {
+	font-family: HiraMinProN-W3;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+}
+#timeup {
+	height: 150px;
+	width: 100%;
+	font-family: HiraMinProN-W3;
+	font-size: 50px;
+	color: #FFFFFF;
+	letter-spacing: 2.99px;
+	top: 150px;
+	margin: auto;
+}
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	font-family: AmericanTypewriter;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-align: center;
+	letter-spacing: 1.08px;
+}
+
+#gauge .epoch .gauge .arc.outer {
+            stroke-width: 20px;
+            stroke: white;
+}
+#gauge .epoch .gauge .arc.inner {
+            stroke-width: 10px;
+            stroke: red;
+}
+#gauge .epoch .gauge .tick {
+            stroke-width: 3px;
+            stroke: red;
+}
+#gauge .epoch .gauge .needle {
+            fill: red;
+}
+#gauge .epoch .gauge .needle-base {
+            fill: grey;
+}
+#complete {
+	font-family: AmericanTypewriter;
+	font-size: 30px;
+	color: red;
+	letter-spacing: 2.59px;
+	text-align: center;
+	height: 60px;
+}
+#titlecall {
+	font-family: AmericanTypewriter;
+	font-size: 30px;
+	color: red;
+	letter-spacing: 2.59px;
+	text-align: center;
+	height: 60px;
+}
+/* magnific popup背景*/
+.white-popup {
+  	position: relative;
+  	background: #FFF;
+  	padding: 20px;
+  	width: auto;
+  	height: auto;
+  	max-height: 200px;
+  	max-width: 600px;
+  	margin: 20px auto;
+}
+.odometer {
+}
